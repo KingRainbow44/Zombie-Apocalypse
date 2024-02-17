@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lol.magix.zombiesv2.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "MixinMinecraftDedicatedServer",
+    "MixinMinecraftServer",
+    "MixinServerWorld",
+    "block.MixinBedBlock",
+    "command.MixinTimeCommand",
+    "item.MixinHoeItem",
+    "item.MixinBowItem",
+    "item.MixinAxeItem",
+    "item.MixinSwordItem",
+    "item.MixinItemStack",
+    "entity.MixinArrowEntity",
+    "mob.MixinEndermanEntity",
+    "mob.MixinHostileEntity",
+    "mob.MixinPiglinBrain",
+    "mob.MixinPlayerEntity",
+    "mob.MixinSkeletonEntity",
+    "mob.MixinZombieEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

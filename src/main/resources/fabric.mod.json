@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "zombies2",
+  "version": "1.0-SNAPSHOT",
+  "name": "ZombiesV2",
+  "description": "Zombies invade the world! Try to survive!",
+  "authors": [
+    "KingRainbow44"
+  ],
+  "contact": {
+    "website": "https://seikimo.moe",
+    "repo": "https://github.com/KingRainbow44/Zombies"
+  },
+  "license": "MIT",
+  "icon": "assets/ZombiesV2/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+        "lol.magix.zombiesv2.ZombiesV2"
+    ]
+  },
+  "mixins": [
+    "ZombiesV2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
